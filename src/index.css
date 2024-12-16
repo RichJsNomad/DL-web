@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: linear-gradient(to bottom, #fcfcfc, #f3c8dc 66.6%, #9eb6e2 100%);
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: 4rem;
+  background: transparent;
+  padding-bottom: 1.5rem;
+}
+
+.chat-admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.round-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.inputs {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-fields {
+  width: 25rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(37, 5, 37);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.input-field1 {
+  width: 25rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 2rem;
+  border: 0.1rem solid red;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.input-field2 {
+  width: 25rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(37, 5, 37);
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.enter-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 25rem;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  border: none;
+  background: linear-gradient(to right, rgb(2, 2, 29), rgba(0, 0, 10, 0.824));
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+}
+.error-text {
+  color: red;
+}
+
+.round-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  .icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url("path/to/your-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
