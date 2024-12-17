@@ -1,14 +1,133 @@
-.underline {
-  position: relative;
-  display: inline-block;
+body {
+  margin: 2rem 6rem 6rem 2rem;
 }
 
-.underline::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+.pink-logo {
+  width: 4rem;
+  height: 4rem;
+}
+
+.icon-par {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.users-par-div {
+  display: flex;
+}
+.users-par {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header-first-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.search-button {
+  width: 16rem;
+  height: 2rem;
+  border: none;
+  border-radius: 8rem;
+  background: linear-gradient(
+    to left,
+
+    rgb(16, 234, 16),
+    rgb(163, 244, 163)
+  );
+  cursor: pointer;
+}
+
+.add-button {
+  width: 12rem;
+  height: 2rem;
+  border: none;
+  border-radius: 6rem;
+  background: linear-gradient(
+    to right,
+
+    rgb(242, 54, 135),
+    rgb(238, 108, 164)
+  );
+  cursor: pointer;
+}
+
+.edit-button {
+  width: 12rem;
+  height: 2rem;
+  color: white;
+  border: none;
+  border-radius: 6rem;
+  background: linear-gradient(
+    to right,
+
+    rgb(19, 13, 15),
+    rgb(44, 38, 41)
+  );
+  cursor: pointer;
+}
+
+.header-underline {
+  border: 1px, solid, gray;
   width: 100%;
-  height: 1px;
-  background-color: black;
+  margin-top: 1rem;
+}
+
+.five-btns {
+  display: flex;
+}
+
+.first-btn,
+.second-btn,
+.third-btn,
+.fourth-btn,
+.fifth-btn {
+  height: 2rem;
+
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.third-btn {
+  width: 3rem;
+}
+
+.first-btn {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.fifth-btn {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.first-btn,
+.fifth-btn {
+  width: 2.5rem;
+}
+
+.second-btn,
+.fourth-btn {
+  width: 2rem;
 }
