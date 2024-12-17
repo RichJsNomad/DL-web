@@ -20,8 +20,8 @@ function Login() {
         />
         <input type="text" placeholder="Пароль" className="input-fields" />
       </div>
-      <div className="enter-button">
-        <button>Войти</button>
+      <div className="enter-button-div">
+        <button className="enter-button">Войти</button>
       </div>
     </div>
   );

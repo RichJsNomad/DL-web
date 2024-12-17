@@ -76,11 +76,6 @@ p {
 }
 
 .enter-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-button {
   width: 25rem;
   font-size: 1.1rem;
   border-radius: 2rem;
@@ -90,6 +85,11 @@ button {
   color: white;
   padding: 0.5rem;
   cursor: pointer;
+}
+.enter-button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .error {

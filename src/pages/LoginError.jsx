@@ -24,8 +24,8 @@ const LoginError = () => {
         />
         <input type="text" placeholder="Пароль" className="input-field2" />
       </div>
-      <div className="enter-button">
-        <button>Войти</button>
+      <div className="enter-button-div">
+        <button className="enter-button">Войти</button>
       </div>
     </div>
   );
