@@ -131,3 +131,10 @@ body {
 .fourth-btn {
   width: 2rem;
 }
+
+.icons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}

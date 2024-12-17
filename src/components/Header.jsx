@@ -29,12 +29,12 @@ const Header = () => {
 
         <button className="add-button">Добавить</button>
 
-        <div class="five-btns">
-          <button class="first-btn">««</button>
-          <button class="second-btn">«</button>
-          <button class="third-btn">10V</button>
-          <button class="fourth-btn">»</button>
-          <button class="fifth-btn">»»</button>
+        <div className="five-btns">
+          <button className="first-btn">««</button>
+          <button className="second-btn">«</button>
+          <button className="third-btn">10V</button>
+          <button className="fourth-btn">»</button>
+          <button className="fifth-btn">»»</button>
         </div>
 
         <button className="edit-button">Редактировать</button>
