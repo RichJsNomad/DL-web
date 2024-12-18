@@ -1,6 +1,14 @@
 import React from "react";
 
+import { useNavigate } from "react-router-dom";
+
 function Login() {
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+    navigate("/promo");
+  };
+
   return (
     <div className="container">
       <div className="chat-admin">
@@ -21,7 +29,9 @@ function Login() {
         <input type="text" placeholder="Пароль" className="input-fields" />
       </div>
       <div className="enter-button-div">
-        <button className="enter-button">Войти</button>
+        <button className="enter-button" onClick={handleLogin}>
+          Войти
+        </button>
       </div>
     </div>
   );

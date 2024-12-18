@@ -2,7 +2,7 @@ import { useState } from "react";
 import Login from "./pages/Login.jsx";
 import LoginError from "./pages/LoginError.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
-import Tarif from "./pages/Tarif.jsx";
+import Promo from "./pages/Promo.jsx";
 import MainPage from "./pages/MainPage.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Login />}></Route>
         <Route path="/authError" element={<LoginError />}></Route>
         <Route path="/dashboard" element={<Dashboard />}></Route>
-        <Route path="/tarif" element={<Tarif />}></Route>
+        <Route path="/promo" element={<Promo />}></Route>
       </Routes>
     </BrowserRouter>
   );

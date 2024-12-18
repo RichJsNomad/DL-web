@@ -135,6 +135,12 @@ body {
 .icons-container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  margin-top: 2rem;
+  gap: 3rem;
+  margin-top: 4rem;
+  padding-left: 0.7rem;
+}
+
+.icons-container img {
+  width: 1.8rem;
+  height: 1.8rem;
 }

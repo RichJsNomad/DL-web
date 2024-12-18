@@ -1,9 +1,10 @@
 import React from "react";
-import "../Tarif.css";
+import "../Promo.css";
+
 import Header from "../components/Header";
 import Dashboard from "../components/Dashboard";
 
-const Tarif = () => {
+const Promo = () => {
   return (
     <div>
       <Header />
@@ -12,4 +13,4 @@ const Tarif = () => {
   );
 };
 
-export default Tarif;
+export default Promo;
